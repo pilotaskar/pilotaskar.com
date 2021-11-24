@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+
+    <div class="header" id="myHeader">
+        <div><a href="#" class="pilotaskar">PILOTASKAR</a></div>
+
+        <div class="menu">
+        <a href="#" class="button">About me</a>
+        <a href="#" class="button">Front end</a>
+        <a href="#" class="button">English</a>
+        <a href="#" class="button">Books</a>
+        <a href="#" class="button">Aviation</a>
+        <a href="#" class="button">Gallery</a>
+        
+        </div>
+
+        <div class="extra-menu">
+            <a href="#" class="button">Osbinaff.com</a>
+            <a href="#" class="button">Projects</a>
+            <a href="#" class="button">Menu</a>
+        </div>
+    </div>
+
+
+
+    
+     
+
+    
+
+    <div class="picture">
+        <div class="picture">
+            <img src="https://images.pexels.com/photos/7903387/pexels-photo-7903387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+          
+        <div class="picture">
+            <img src="https://images.pexels.com/photos/5589359/pexels-photo-5589359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+
+        <div class="picture first">
+            <img src="https://images.pexels.com/photos/9943247/pexels-photo-9943247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+
+        <div class="picture">
+            <img src="https://images.pexels.com/photos/691716/pexels-photo-691716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+        
+        <div class="picture">
+           <img src="https://images.pexels.com/photos/5689753/pexels-photo-5689753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+
+        <div class="picture">
+          <img src="https://images.pexels.com/photos/792726/pexels-photo-792726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+
+        <div class="picture">
+          <img src="https://images.pexels.com/photos/2506639/pexels-photo-2506639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>

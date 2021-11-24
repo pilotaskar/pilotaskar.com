@@ -1,0 +1,34 @@
+.button {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pilotaskar {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-left: 15px;
+    
+}
+
+.picture img {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.button {
+    transition: box-shadow, backround 2s .5s ease-in-out;
+    
+}
+
+
+.button:hover {
+ /* text-shadow: cornsilk; */
+ /* border-radius: 10px; */
+ background-color: gray;
+ /* opacity: 0.5; */
+ /* color: black; */
+}
