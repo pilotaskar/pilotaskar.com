@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+<body>
+    <div class="header" id="myHeader">
+        <div><a href="#" class="pilotaskar">PILOTASKAR</a></div>
+
+        <div class="menu">
+        <a href="landingpage.html" class="button">Landing Page</a>
+        <!-- <a href="#" class="button">Front end</a> -->
+        <!-- <a href="#" class="button">English</a> -->
+        <!-- <a href="#" class="button">Books</a> -->
+        <!-- <a href="#" class="button">Aviation</a> -->
+        <!-- <a href="#" class="button">Gallery</a> -->
+        
+        </div>
+
+        <div class="extra-menu">
+            <!-- <a href="#" class="button">Osbinaff.com</a> -->
+            <!-- <a href="project.html" class="button">Projects</a> -->
+            <a href="#" class="button">Menu</a>
+        </div>
+    </div>
+
+    <div class="picture">
+        <div class="picture">
+            <img src="https://images.pexels.com/photos/9943247/pexels-photo-9943247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+        </div>
+          
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>
