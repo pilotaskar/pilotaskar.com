@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.container1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+    
+}
+
+/* HEADER */
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  
+}
+
+.button {
+    background-color: #037ffc;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: white;
+    background-color: #0349fc;
+}
+
+/* BUILD PART */
+
+
+.build {
+    width: 100%;
+    text-align: center;
+}
+
+.build-bg {
+    background-image: url(https://images.unsplash.com/photo-1507295386538-ddd5e86cd597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80);
+    background-position: center;
+    background-size: cover;
+    /* lATER CHANGE FOR MOBILE SIZE */
+    padding: 8%;
+    height: 100%;
+    width: 100%;
+    color: white;
+
+}
+
+.email {
+    font-size: 200%;
+}
+
+.build {
+    position: relative;
+    background-size: cover;
+    
+}
+
+
+
+
+
+/* Three ICONS */
+
+.card-one {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+}
+
+.card-one i {
+    font-size: 100px;
+    
+}
+
+
+.card-one {
+    display: flex;
+    flex-direction: row;
+    color: #037ffc; 
+}
+
+ .card-one p, .card-one span {
+    color: black;
+}
+
+.card-one i:hover {
+color: #0349fc;
+
+}
+
+#parent h3{
+  color: black;
+  margin-top: 20px;
+}
+
+#parent p {
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif
+}
+
+/* Multiple Images  */
+
+
+.textimg {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.img {
+    width: 100%;
+    height: 500px;
+
+}
+ .phone {
+    background-image: url(https://images.unsplash.com/photo-1591337676887-a217a6970a8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80);
+    
+    background-size: cover;
+    
+ }
+
+ .image {
+    background-image: url(https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+ }
+
+ .child {
+    background-image: url(https://images.unsplash.com/photo-1580231075585-37b2b7569cb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+ }
+
+
+  /* Multiple TEXT */
+
+  .text {
+      text-align: center;
+      margin-top: 20%;
+      font-size: 25px;
+  }
+
+
+/* PEOPLE SAIS */
+
+.card-people h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+ .people-pictures img {
+     border-radius: 50%;
+ }
+ .people-pictures {
+     display: flex;
+     /* flex-direction: row; */
+     justify-content: space-around;
+     align-items: center;
+     
+     
+ }
+
+
+ .people-pictures {
+     text-align: center;
+ }
+
+
+  /* Under e mail section */
+
+  .back-img2 {
+    background-image: url(https://images.unsplash.com/photo-1507295386538-ddd5e86cd597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80);
+    background-position: center;
+    background-size: cover;
+    /* lATER CHANGE FOR MOBILE SIZE */
+    padding: 8%;
+    z-index: -1;
+    height: 70%;
+    width: 100%;
+    /* position: absolute; */
+    color: white;
+  }
+
+  .signup {
+      text-align: center;
+      font-size: 25px;
+  }
+
+  .signup h2 {
+      margin-bottom: 20px;
+  }
+
+
+   /* FOOTER */
+
+   footer {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 30px;
+   }
+
+.button-footer {
+    text-decoration: none;
+}
+
+.button-footer:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.social i {
+    font-size: 30px;
+    color:#037ffc ;
+    margin: 5px;
+}
+
+ .social i:hover {
+     color: #0349fc;
+ }
+
+
+ /* RESPONSIVE */
+ @media screen and (max-width: 600px) {
+.top {
+    display: flex;
+    flex-direction: column;   
+    }
+
+.email {
+    font-size: 100%;
+    }
+
+.textimg {
+    display: flex;
+    flex-direction: column;
+    }
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    }
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    }    
+
+.people-pictures {
+    display: flex;
+    flex-direction: column;
+    }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    }
+ }
+
+ 
+/* .sibling-hover, #parent {
+    cursor: pointer;
+}
+.sibling-hover:hover ~ .sibling-highlight  {
+    background-color: red;
+    color: white;
+} */
+
+#parent:hover .parent-highlight {
+    
+    color:#0349fc;
+}
