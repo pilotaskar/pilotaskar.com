@@ -41,6 +41,8 @@ button:hover {
   color:black
 }
 
+
+
 @media screen and (max-width: 1000px) {
   
   .menu{
@@ -53,10 +55,12 @@ button:hover {
     font-size: 15px;
   }
 
-  .back-img img{
-    width: 180%;
-    
+  .extra-menu {
+    font-size: 10px;
   }
+ 
+ 
+  
   
   }
   
