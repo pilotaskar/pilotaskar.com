@@ -41,7 +41,9 @@ button:hover {
   color:black
 }
 
-
+.problem {
+  margin-bottom: 100px;
+} 
 
 @media screen and (max-width: 1000px) {
   
@@ -59,7 +61,10 @@ button:hover {
     font-size: 10px;
   }
  
- 
+  .button-about {
+    font-size: 40px;
+    color: black;
+  }
   
   
   }
