@@ -36,3 +36,29 @@
  /* opacity: 0.5; */
  /* color: black; */
 }
+
+.button-oval {
+    border: solid 2px white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    font-family: 'Hind Siliguri', sans-serif;
+     margin-top: 50%; 
+     margin-left: 45%;   
+    position: absolute;
+    font-weight: bolder;
+    
+    
+   
+}
+
+.button-oval:hover {
+    color: black;
+    background-color: white;
+}
+
+.back-img {
+    position: absolute;
+    z-index: -1;
+}
