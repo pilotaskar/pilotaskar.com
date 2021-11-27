@@ -65,7 +65,9 @@ button:hover {
     font-size: 40px;
     color: black;
   }
-  
+  .button-about:hover {
+  color: black;
+}
   
   }
   
