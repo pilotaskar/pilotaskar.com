@@ -10,10 +10,12 @@
     color: black;
     text-decoration: none;
     font-weight: bolder;
-    padding-left: 15px;
-    
+    padding-left: 15px;  
 }
 
+.pilotaskar:hover {
+    color: black;
+}
 .picture img {
     margin-top: 0;
     padding-bottom: 0;
@@ -30,6 +32,7 @@
  /* border-radius: 10px; */
  background-color: gray;
  border-radius: 15px;
+ color: black;
  /* opacity: 0.5; */
  /* color: black; */
 }

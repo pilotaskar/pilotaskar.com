@@ -23,11 +23,38 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .pilotaskar {
-    font-size: 30px;
+  font-size: 30px;
+  font-family: 'Hind Siliguri', sans-serif;
+
+    
 }
+
+.menu, .extra-menu {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+button:hover {
+  color:black
+}
+
+@media screen and (max-width: 1000px) {
+  
+  .menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+  }
+
+  .pilotaskar {
+    font-size: 15px;
+  }
+  
+  }
+  
 
 
 
