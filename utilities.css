@@ -70,7 +70,7 @@
     /* border: solid 2px white; */
     /* border-radius: 10px; */
     text-decoration: none;
-    color: white;
+    color: black;
     /* padding: 3px; */
     font-family: 'Hind Siliguri', sans-serif;
      margin-top: 10%; 
@@ -83,7 +83,7 @@
 
 
 .button-about:hover {
-    color: white;
+    color: black;
 }
 
 .button-oval:hover {
