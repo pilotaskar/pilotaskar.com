@@ -1,7 +1,14 @@
 body {
-  background: #00091B;
+  background-image: url(https://wallpaperaccess.com/full/147671.jpg);
   color: #fff;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+ padding-bottom: 50%;
+ background-color: black;
+
 }
 
 
@@ -18,6 +25,7 @@ body {
 }
 
 .wrapper {
+  
   position: absolute;
   left: 50%;
   top: 50%;
