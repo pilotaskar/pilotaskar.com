@@ -25,12 +25,15 @@ footer i:hover{
   justify-content: center;
 }
 
-main{
+center{
   margin-top: 30px;
   margin-bottom: 30px;
-  text-align: center;
-  
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+
 }
+
 
 
 .main-image{
