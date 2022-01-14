@@ -42,14 +42,16 @@ font-size: 13px;
 
 .main-image{
   display: flex;
+  
   justify-content: center;
+  
 }
 
 .main-image img{
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px slategrey;
-  /* margin-top: 10px; */
-  /* margin-bottom: 5px; */
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 nav{
