@@ -146,4 +146,8 @@ border-radius: 5px;
   margin-left: 3px;
 }
 
+.fit{
+  max-width: 99%;
+}
+
 
