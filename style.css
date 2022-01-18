@@ -152,7 +152,21 @@ code{
   background-color: #eee;
 }
 
+figure{
+  
+  
+  text-align: center;
+}
 
+#audio{
+  margin: 0 auto;
+}
 
+.audio{
+  display: flex;
+  justify-content: center;
+ 
+
+}
 
 
