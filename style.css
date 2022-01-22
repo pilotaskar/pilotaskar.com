@@ -77,77 +77,6 @@ nav a:hover{
 }
 
 
-/* FOR ENGLISH PROGRESS */
-#myprogress{
-width: 100%;
-background-color: #DDDDDD;
-border-radius: 5px;
-/* border: solid 1px #666; */
-}
-
-.progress-bar-width{
-  width: 310px;
- margin-left: auto;
- margin-right: auto;
-}
-#mybar{
-  width: 1%;
-  height: 20px;
-  background-color: #04AA6D;
-  border-radius: 5px;
-
-}
-
-#mybar span{
-  color: white;
-  font-size: 13px;
-  margin-left: 3px;
-}
-
-
-/* PROGRESS FOR CODING */
-#myprogress1{
-  width: 100%;
-  background-color: #DDDDDD;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-#mybar1{
-  width: 4%;
-  height: 20px;
-  border-radius: 5px;
-  background-color:#04AA6D ;
-  
-}
-
-#mybar1 span{
-  color: white;
-  font-size: 13px;
-  margin-left: 15px;
-}
-
-/* PROGRESS FOR INVESTING */
-
-#myprogress2{
-  width: 100%;
-  background-color:#DDDDDD ;
-  border-radius: 5px;
-}
-
-#mybar2{
-  width: 0%;
-  height: 20px;
-  border-radius: 5px;
-  background-color:#04AA6D  ;
-}
-
-#mybar2 span{
-  font-size: 13px;
-  color: white;
-  margin-left: 3px;
-}
-
 code{
   background-color: #eee;
 }
@@ -156,6 +85,21 @@ code{
   display: flex;
   justify-content: center;
 }
+
+.progress{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.progress label{
+  padding-right: 5px;
+  font-size: smaller;
+  
+ 
+}
+
+
 
 
 
