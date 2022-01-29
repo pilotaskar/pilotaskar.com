@@ -146,10 +146,7 @@ code{
   background-color: #eee;
 }
 
-.audio{
-  display: flex;
-  justify-content: center;
-}
+
 
 .progress{
   display: flex;
