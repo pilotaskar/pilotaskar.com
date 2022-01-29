@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,152 +9,116 @@
   <link rel="stylesheet" href="style.css">
   <!-- Google font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <title>pilotaskar</title>
 </head>
+
 <body>
 
-  
+  <header>
+
+    <h6>PILOTASKAR</h6>
+
+
+  </header>
 
   <nav>
-    <a href="googlechallenges.html">Google challenges<i class="fas fa-pen"></i></a>
-    <a href="englsihprogress.html">My 5K English<i class="fas fa-pen"></i></a>
+    <a href="googlechallenges.html">Google challenges</i></a>
+    <a href="englsihprogress.html">My 5K English</a>
   </nav>
 
-  
 
-  <div class="content">
-    <h4><i class="fas fa-medal"></i>5% controll is enough to focus my main goal</h4>
-  </div>
-   
+  <section>
 
-  <div class="main-image">
-    
+    <h4><i class="fas fa-medal"></i>5% direction controll is enough to focus my main goal</h4>
+
     <img src="/img/IMG_0191-1.jpg" alt="hey" width="320" height="240">
-</div>
-
-  
 
 
+    <!-- This script help to mobile video from youtube and autoplay -->
 
-<!-- <div class="main-image">
-    
-  <iframe allow="autoplay" width="320" height="240" src="https://www.youtube.com/embed/5jbr6nHuP4s?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div> -->
+    <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
+    <div id="player"></div>
 
-<!-- This script help to mobile video from youtube and autoplay -->
-<div class="main-image">
-<!-- 1. The <iframe> (video player) will replace this <div> tag. -->
-  <div id="player"></div>
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
 
-  <script>
-    // 2. This code loads the IFrame Player API code asynchronously.
-    var tag = document.createElement('script');
-  
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-  
-    // 3. This function creates an <iframe> (and YouTube player)
-    //    after the API code downloads.
-    var player;
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player('player', {height:'180',
-        width: '320',
-        videoId: 'I5cY1GKAWU0',
-        playerVars: { 'autoplay': 1, 'playsinline': 1 },
-        events: {
-          'onReady': onPlayerReady
-        }
-      });
-    }
-  
-    // 4. The API will call this function when the video player is ready.
-    function onPlayerReady(event) {
-       event.target.mute();
-      event.target.playVideo();
-    }
-  </script>
-  </div>
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '180',
+          width: '320',
+          videoId: 'I5cY1GKAWU0',
+          playerVars: { 'autoplay': 1, 'playsinline': 1 },
+          events: {
+            'onReady': onPlayerReady
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.mute();
+        event.target.playVideo();
+      }
+    </script>
 
 
 
-  
-      </div>
-    
+    <p>Hi, my name is Askar. I'm trying to learn software engineering.<i class="fas fa-laptop-code"></i>
+      Living in a Seattle, WA, United States.<i class="fas fa-flag-usa"></i> In this website I'll post
+      my learning process, notes, projects, etc. I'll build everything from scratch
+      because of learn. To being unique I'll build
+      everything, every detail, every projects by myself...<i class="fas fa-baby"></i></p>
+
+    <img class="fit" src="/img/photo1627623804.jpeg" alt="" width="320" height="240">
+
+    <h4>Practice coding 10K hour <i class="fas fa-clock"></i> </h4>
 
 
+    <p>+486hour</p>
+    <progress id="progress" max="10000" value="486"></progress>
 
-
-
-
-
- 
-
-  <div class="content">
-    <p>Hi, my name is Askar. I'm trying to learn software engineering.<i class="fas fa-laptop-code"></i> 
-    Living in a Seattle, WA, United States.<i class="fas fa-flag-usa"></i> In this website I'll post 
-  my learning process, notes, projects, etc. I'll build everything from scratch 
-because of learn. To being unique I'll build 
-everything, every detail, every projects by myself...<i class="fas fa-baby"></i></p>
-  </div>
-
-  <div class="main-image">
-    
-    <img class="fit" src="/img/photo1627623804.jpeg" alt="" width="320" height="240"  >
-  </div>
-
-
-  <div class="content">
-    <h4> (Google challenge) Practice coding 10K hour <i class="fas fa-clock"></i>   </h4>
-  </div>
-
-  <div class="progress">
-  <label for="progress">+486hour</label>
-  <progress id="progress" max="10000" value="486" ></progress>
-  </div>
-
-  
-
-  <div class="main-image">
     <img src="/img/photo5165713774747953345.jpg" alt="" width="320" height="240">
-  </div>
-
-  <div class="content">
 
     <video autoplay muted loop width="320px">
-      <source src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5f362833-e979-47f3-b173-76c48487df19/New_video4.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220127T185846Z&X-Amz-Expires=86400&X-Amz-Signature=f9cad24138ee2993fc98312a6af3558fd622c26b01c6e59dac6f5085100b59cd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22New%2520video4.mp4%22&x-id=GetObject" type="video/mp4">
+      <source
+        src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5f362833-e979-47f3-b173-76c48487df19/New_video4.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220129T155738Z&X-Amz-Expires=86400&X-Amz-Signature=3cb3ebc55e01060519175e9f974d2e122918c376f3361c7b51408aa04406642b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22New%2520video4.mp4%22&x-id=GetObject">
     </video>
-  </div>
-  
-    
-   
-  
 
- 
+  </section>
+
+
 
   <footer>
     <a href="audio.html"><i class="fas fa-music"></i></a>
-      <!-- <a href="https://melodious-nemophila-ebf.notion.site/Learn-Coding-with-Pilotaskar-4343f64baaf9468ca5e4ff15e36dae8f"><i class="fas fa-laptop-code"></i></a> -->
-      <!-- <a href="https://melodious-nemophila-ebf.notion.site/Learn-English-with-Pilotaskar-acb817e1d83b465daa6d3b2751419fda"><i class="fab fa-leanpub"></i></a> -->
-      <a href="https://wa.me/%2B12067171717?text=Hi%2C%20my%20name%20is%20Askar.%20how%20can%20I%20help%20you%3F"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://www.instagram.com/pilotaskar/"><i class="fab fa-instagram he"></i></a>
-      <a href="https://github.com/pilotaskar"><i class="fab fa-github-square"></i></a>
-      <a href="https://www.linkedin.com/in/askarbek-zholdoshov-b68641226/"><i class="fab fa-linkedin"></i></a>
-      <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfsdFtDhgLRLkVZqjxDcPTMfZXpWXnlQDkcZbstdnxZklbLstjWhChBwgxbzHCvGzMjlCg"><i class="fas fa-envelope"></i></a>
-      <a href="https://codepen.io/pilotaskar"><i class="fab fa-codepen"></i></a>
-      <a href="https://www.youtube.com/channel/UCZMfLV1m0KQQ42O11T0HSeg"><i class="fab fa-youtube"></i></a>
-
+    <a href="https://wa.me/%2B12067171717?text=Hi%2C%20my%20name%20is%20Askar.%20how%20can%20I%20help%20you%3F"><i
+        class="fab fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/pilotaskar/"><i class="fab fa-instagram he"></i></a>
+    <a href="https://github.com/pilotaskar"><i class="fab fa-github-square"></i></a>
+    <a href="https://www.linkedin.com/in/askarbek-zholdoshov-b68641226/"><i class="fab fa-linkedin"></i></a>
+    <a
+      href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfsdFtDhgLRLkVZqjxDcPTMfZXpWXnlQDkcZbstdnxZklbLstjWhChBwgxbzHCvGzMjlCg"><i
+        class="fas fa-envelope"></i></a>
+    <a href="https://codepen.io/pilotaskar"><i class="fab fa-codepen"></i></a>
+    <a href="https://www.youtube.com/channel/UCZMfLV1m0KQQ42O11T0HSeg"><i class="fab fa-youtube"></i></a>
   </footer>
 
-  
-
-  
 
 
 
-  
-  
+
+
+
+
+
 
 
 
@@ -162,4 +127,5 @@ everything, every detail, every projects by myself...<i class="fas fa-baby"></i>
 
 
 </body>
+
 </html>

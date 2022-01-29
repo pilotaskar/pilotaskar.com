@@ -1,46 +1,125 @@
 *{
   font-family: 'Poppins', sans-serif;
   color: #666;
+  background-color: #EEF2F4;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, li, a{background-color: #fff;}
+
+h3{
+  border-top: 20px solid #666;
+  padding-top: 10px;
+}
+
+mark{
+  background-color: greenyellow;
+}
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 340px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #fff;
+  position: relative;
+  font-size: 13px;
+}
+
+header{
+  text-align: center;
+}
+
+header h6{
+  margin: 0; padding: 0;
+  background-color: #666;
+  color: #eee;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  background-color: #fff;
+}
+
+nav a{
+  margin-top: 10px;
+  text-decoration: none;
+  border: 1px solid #666;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 8px;
+  background-color: #fff;
+}
+
+nav a:hover{
+  color: seashell;
+  background-color: #666;
+ 
+}
+
+section{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background-color: #fff;
+  
+  
   
 }
+
+p, ul{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+i{
+  background-color: #fff;
+}
+
+ progress{
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 footer{
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 10px;
+  background-color: #666;
 }
 
 footer i{
   padding: 10px;
   font-size: 15px;
-  color: #666;
+  color: #fff;
+  background-color: #666;
 }
 
 footer i:hover{
-  color: #171A20;
+  color: seashell;
   font-size: 20px;
   
 }
 
-.text{
-  display: flex;
-  justify-content: center;
-}
 
-.content{
-  margin-top: 10px;
-  margin-bottom: 10px;
-margin-left: auto;
-margin-right: auto;
-width: 340px;
-font-size: 13px;
-text-align: center;
 
-}
 
-.content h5{
-  margin: 0; padding: 0;
-}
+
 
 
 
@@ -58,28 +137,9 @@ text-align: center;
   margin-bottom: 5px;
 }
 
-nav{
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  font-size: 16px;
-  
-}
 
-nav a{
-  margin-top: 10px;
-  text-decoration: none;
-  border: 1px solid #666;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 8px;
-}
 
-nav a:hover{
-  color: seashell;
-  background-color: #666;
-  
-}
+
 
 
 code{
