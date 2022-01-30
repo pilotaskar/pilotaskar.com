@@ -117,6 +117,40 @@ footer i:hover{
 }
 
 
+/* RESPONSIVE */
+@media screen and (min-width: 400px){
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+    position: relative;
+    font-size: 18px;
+  }
+
+  header h6{
+    padding: 15px;
+    font-size: larger;
+  }
+
+ 
+
+  section img{
+    width: 540px;
+    height: 380px;
+  }
+
+  #player {
+    width: 540px;
+    height:380px ;
+
+  }
+
+
+
+}
 
 
 
