@@ -143,10 +143,15 @@ footer i:hover{
   }
 
   #player {
-    width: 540px;
-    height:380px ;
-
+    width: 440px;
+   
   }
+
+  video {
+    width:540px ;
+  }
+
+  
 
 
 
