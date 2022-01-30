@@ -38,7 +38,7 @@
     <!-- This script help to mobile video from youtube and autoplay -->
 
     <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
-    <div id="player"></div>
+    <div id="player-youtube"></div>
 
     <script>
       // 2. This code loads the IFrame Player API code asynchronously.
@@ -52,7 +52,7 @@
       //    after the API code downloads.
       var player;
       function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
+        player = new YT.Player('player-youtube', {
           height: '180',
           width: '320',
           videoId: 'I5cY1GKAWU0',

@@ -144,10 +144,14 @@ footer i:hover{
     height: 380px;
   }
 
-  #player {
+  #player-youtube {
     width: 540px;
     height: 380px;
    
+  }
+
+  #player{
+    width: 440px;
   }
 
   video {
