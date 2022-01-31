@@ -107,14 +107,13 @@ footer{
 
 footer i{
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
   background-color: #666;
 }
 
 footer i:hover{
-  /* color: seashell; */
-  font-size: 20px;
+  color: lightblue;
   
 }
 
