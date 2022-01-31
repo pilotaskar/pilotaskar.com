@@ -28,14 +28,22 @@ body{
 }
 
 header{
-  text-align: center;
+  background-color: #666;
+  padding: 10px;
 }
 
-header h6{
+header a{
   margin: 0; padding: 0;
-  background-color: #666;
-  color: #eee;
-  padding: 10px;
+ color: #fff;
+ background-color: #666;
+  /* padding: 10px; */
+  text-decoration: none;
+  
+}
+
+header a:hover{
+  color: #D3D3D3;
+
 }
 
 nav{
@@ -113,7 +121,7 @@ footer i{
 }
 
 footer i:hover{
-  color: lightblue;
+  color: #D3D3D3;
   
 }
 
