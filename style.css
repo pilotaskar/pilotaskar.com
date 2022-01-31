@@ -113,7 +113,7 @@ footer i{
 }
 
 footer i:hover{
-  color: seashell;
+  /* color: seashell; */
   font-size: 20px;
   
 }
