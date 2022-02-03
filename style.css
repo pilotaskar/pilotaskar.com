@@ -46,6 +46,17 @@ header a:hover{
 
 }
 
+header a{
+  animation: 2s myanime;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+@keyframes myanime {
+  from {top: -30px;}
+  to {top: 0;}
+}
+
 nav{
   display: flex;
   justify-content: center;
@@ -69,6 +80,16 @@ nav a:hover{
   color: seashell;
   background-color: #666;
  
+}
+
+nav a{
+  animation: navanime 2s;
+  position: relative;
+}
+
+@keyframes navanime {
+  from {right: -30px;}
+  to {right: 0px;}
 }
 
 section{
