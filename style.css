@@ -25,6 +25,8 @@ body{
   background-color: #fff;
   position: relative;
   font-size: 13px;
+
+  
 }
 
 header{
@@ -240,14 +242,18 @@ code{
 .progress label{
   padding-right: 5px;
   font-size: smaller;
-  
- 
+
 }
 
 b{
   background-color: red;
   color: white;
   font-weight: lighter;
+}
+
+::selection {
+  background: yellow;
+  color: red;
 }
 
 
