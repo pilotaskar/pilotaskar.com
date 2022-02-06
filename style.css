@@ -5,6 +5,10 @@
   line-height: 1.6;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 p, h1, h2, h3, h4, h5, h6, ul, li, a{background-color: #fff;}
 
 h3{
