@@ -11,6 +11,10 @@ html{
 
 p, h1, h2, h3, h4, h5, h6, ul, li, a{background-color: #fff;}
 
+h1, h3{
+  text-shadow: 2px 2px gainsboro;
+}
+
 h3{
   border-top: 20px solid #666;
   padding-top: 10px;
