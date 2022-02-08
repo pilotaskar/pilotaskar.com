@@ -1,3 +1,5 @@
+$myFont: "poppins", sans-serif;
+
 :root {
   --white:#fff;
   --gray:#666;
@@ -5,7 +7,7 @@
 }
 
 * {
-  font-family: "poppins", sans-serif;
+  font-family: $myFont;
   color: var(--gray);
   background-color: var(--mainbgcolor);
   line-height: 1.6;
@@ -61,20 +63,9 @@ header a:hover {
 }
 
 header a {
-  -webkit-animation: 2s myanime;
-          animation: 2s myanime;
+  animation: 2s myanime;
   position: relative;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes myanime {
-  from {
-    top: -30px;
-  }
-  to {
-    top: 0;
-  }
+  animation-fill-mode: forwards;
 }
 
 @keyframes myanime {
@@ -85,16 +76,10 @@ header a {
     top: 0;
   }
 }
-
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: var(--white);
@@ -116,18 +101,8 @@ nav a:hover {
 }
 
 nav a {
-  -webkit-animation: navanime 2s;
-          animation: navanime 2s;
+  animation: navanime 2s;
   position: relative;
-}
-
-@-webkit-keyframes navanime {
-  from {
-    right: -30px;
-  }
-  to {
-    right: 0px;
-  }
 }
 
 @keyframes navanime {
@@ -138,20 +113,9 @@ nav a {
     right: 0px;
   }
 }
-
 section > h4 {
-  -webkit-animation: 2s wordanime;
-          animation: 2s wordanime;
+  animation: 2s wordanime;
   position: relative;
-}
-
-@-webkit-keyframes wordanime {
-  from {
-    left: -10px;
-  }
-  to {
-    left: 0px;
-  }
 }
 
 @keyframes wordanime {
@@ -162,7 +126,6 @@ section > h4 {
     left: 0px;
   }
 }
-
 section {
   margin-left: auto;
   margin-right: auto;
@@ -187,12 +150,8 @@ progress {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 10px;
   background-color: var(--gray);
   padding: 20px;
@@ -221,43 +180,43 @@ footer i:hover {
     position: relative;
     font-size: 18px;
   }
+
   header h6 {
     padding: 15px;
     font-size: larger;
   }
+
   section img {
     width: 540px;
     height: 380px;
   }
+
   #player-youtube {
     width: 540px;
     height: 380px;
   }
+
   #player {
     width: 440px;
   }
+
   video {
     width: 540px;
   }
+
   iframe {
     width: 540px;
     height: 380px;
   }
 }
-
 .main-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .main-image img {
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 5px 5px slategrey;
-          box-shadow: 5px 5px 5px 5px slategrey;
+  box-shadow: 5px 5px 5px 5px slategrey;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -267,12 +226,8 @@ code {
 }
 
 .progress {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 5px;
 }
 
@@ -287,13 +242,9 @@ b {
   font-weight: lighter;
 }
 
-::-moz-selection {
-  background: yellow;
-  color: red;
-}
-
 ::selection {
   background: yellow;
   color: red;
 }
-/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.scss.map */
