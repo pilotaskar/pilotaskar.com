@@ -305,4 +305,8 @@ b {
   background: yellow;
   color: red;
 }
+
+li, ol{
+  background-color: var(--white);
+}
 /*# sourceMappingURL=style.css.map */
