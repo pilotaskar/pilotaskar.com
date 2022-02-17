@@ -148,7 +148,7 @@ nav a {
   }
 }
 
-section > h4 {
+section > h4, #strike {
   -webkit-animation: 2s wordanime;
           animation: 2s wordanime;
   position: relative;
