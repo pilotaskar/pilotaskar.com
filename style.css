@@ -310,3 +310,19 @@ li, ol{
   background-color: var(--white);
 }
 /*# sourceMappingURL=style.css.map */
+
+div {
+  background-color: white;
+}
+
+#next {
+  background-color:#428AFC ;
+  border-radius: 5px;
+  color: white;
+}
+
+#black {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
